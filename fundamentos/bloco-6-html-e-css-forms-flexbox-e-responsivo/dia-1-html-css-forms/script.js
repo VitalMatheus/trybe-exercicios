@@ -10,3 +10,7 @@ function selectStateBrazil(){
   }
 }
 selectStateBrazil();
+
+// function xablau(event){
+//   event.preventDefault();
+// }

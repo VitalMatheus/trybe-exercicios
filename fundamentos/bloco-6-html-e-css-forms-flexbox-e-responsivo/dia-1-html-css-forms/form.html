@@ -7,30 +7,44 @@
   <title>Document</title>
 </head>
 <body>
-  <form action="GET">
-    <fieldset>
-      <input placeholder="Nome" type="text" name="name" maxlength="40" required> <br>
-      <input placeholder="Email" type="text" name="email" maxlength="50" required><br>
-      <input placeholder="CPF" type="text" name="cpf" id="" maxlength="11" required><br>
-      <input placeholder="Endereço" type="text" name="adress" id="" maxlength="200" required><br>
-      <input placeholder="Cidade" type="text" name="city" id="" maxlength="28" required><br>
-      <select name="estados" id="uf">
-      </select> <br>
+  <header>
+    <h1>Formulário para cadastro de currículo</h1>
+    <p>Preencha os campos abaixo</p>
+  </header>
+
+  <main>
+    <form action="GET">
+      <fieldset>
+        <input placeholder="Nome" type="text" name="name" maxlength="40" required> <br>
+        <input placeholder="Email" type="text" name="email" maxlength="50" required><br>
+        <input placeholder="CPF" type="text" name="cpf" id="" maxlength="11" required><br>
+        <input placeholder="Endereço" type="text" name="adress" id="" maxlength="200" required><br>
+        <input placeholder="Cidade" type="text" name="city" id="" maxlength="28" required><br>
+        <select name="estados" id="uf">
+        </select> <br>
       
-      <input type="radio" name="casa" id="casa-ape" value="Casa">
-      <label for="casa-ape">Casa</label>
-      <input type="radio" name="apartamento" id="casa-ape" value="Apartamento">
-      <label for="casa-ape">Apartamento</label>
-    </fieldset>
+        <label for="moradia-casa">
+          <input type="radio" name="casa-ape" id="moradia-casa" >Casa
+        </label>
+    
+        <label for="moradia-ape">
+          <input type="radio" name="casa-ape" id="moradia-ape" >Apartamento
+        </label>
 
-    <fieldset>
-      <input placeholder="Resumo" type="textArea" maxlength="1000" required> <br>
-      <input placeholder="Cargo" type="text" maxlength="40" required> <br>
-      <input placeholder="Descrição do Cargo" type="text" maxlength="500" required> <br>
-      <input type="date">
+      </fieldset>
 
-    </fieldset>
-  </form>
+      <fieldset>
+      <textarea name="resumo" id="" cols="30" rows="10"></textarea> <br>
+        <input placeholder="Cargo" type="text" maxlength="40" required> <br>
+        <input placeholder="Descrição do Cargo" type="text" maxlength="500" required> <br>
+        <input type="date">
+
+      </fieldset>
+
+      <button onclick="submitAll();">Enviar</button>
+      <button onclick="clearAll()">Limpar</button>
+    </form>
+  </main>
   <script src="script.js" async></script>
 </body>
 </html>
