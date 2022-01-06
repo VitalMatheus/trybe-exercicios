@@ -1,0 +1,48 @@
+body {
+  margin-top: 40px ;
+}
+
+.button {
+  margin-right: 15px;
+}
+
+.name{
+width: 40%;
+
+}
+
+.email {
+width: 40%;
+
+}
+.cpf{
+  width: 20%;
+}
+.adress{
+width: 60%;
+}
+
+.city{
+width: 30%;
+}
+
+.state {
+  width: 20%;
+}
+.cargo{
+  width: 30%;
+}
+.descricao{
+ 
+}
+.resumao {
+  margin-top: 10px;
+}
+.btn-danger{
+  margin-top: 30px;
+  margin-left: 70%;
+  margin-right: 15px;
+}
+.btn-info {
+  margin-top: 30px;
+}
