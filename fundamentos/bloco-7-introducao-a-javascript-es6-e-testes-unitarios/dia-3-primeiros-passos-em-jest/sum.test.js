@@ -14,3 +14,4 @@ describe('Testa a função sum', () => {
     expect(() => sum(4,'5')).toThrowError('parameters must be numbers');
   })
 });
+
