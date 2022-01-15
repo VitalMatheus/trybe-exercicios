@@ -105,8 +105,12 @@ const objectLength = (object) => {
 }
 console.log(objectLength(lesson2))
 
-//Exercício 4
+// Exercício 4
 const objectValues = (object) => {
   return Object.values(object);
 }
 console.log(objectValues(lesson3))
+
+// Exercicio 5
+const allLessons = Object.assign({} , {lesson1, lesson2, lesson3});
+console.log (allLessons);
