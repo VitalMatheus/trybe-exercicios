@@ -59,3 +59,4 @@ const longestWord = (text) => {
 }
 
 console.log(longestWord("Walking the street tonight alone in a river of darkness"))
+
