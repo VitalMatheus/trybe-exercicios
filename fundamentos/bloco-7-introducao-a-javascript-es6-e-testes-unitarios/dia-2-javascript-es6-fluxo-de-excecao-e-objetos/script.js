@@ -85,9 +85,17 @@ const lesson3 = {
   turno: 'noite',
 };
 
+// Exercicio 1
 const addShift = (object, key, value) => {
   object[key] = value;
 
 }
 addShift(lesson2, 'turno', 'noite');
 console.log(lesson2)
+
+// Exeercicio 2
+const listKeys = (object) => {
+  return Object.keys(object);
+}
+console.log(listKeys(lesson1));
+
