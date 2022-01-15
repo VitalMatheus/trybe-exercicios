@@ -99,3 +99,8 @@ const listKeys = (object) => {
 }
 console.log(listKeys(lesson1));
 
+// Exercicio 3
+const objectLength = (object) => {
+  return Object.keys(object).length
+}
+console.log(objectLength(lesson2))
